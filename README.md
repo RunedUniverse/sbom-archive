@@ -6,7 +6,8 @@ This Repository can be used with the CycloneDX Validator of our [maven-repo-proj
 
 ## Structure
 
-The repository's content follows the path schema: `<category>/<groupId>/<artifactId>/<version>/[<classifier>.]<type>.xml`
+The repository's content follows the path schema:<br>
+`<category>/<groupId>/<artifactId>/<version>/[<classifier>.]<type>.xml`
 
  Folder | Description
 ---|---
