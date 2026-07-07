@@ -447,14 +447,14 @@
       <description>RunedUniverse Utilities Project</description>
       <scope>required</scope>
       <hashes>
-        <hash alg="MD5">5cdaeb465bac3d26b36e83e8ac31fb52</hash>
-        <hash alg="SHA-1">a3a068b1dc276a72ae4a064089cf927da8ba3604</hash>
-        <hash alg="SHA-256">7c28d902abf25afe531e4cc943dd9c229c2fd4b5a8a18b42123acbabd32156fb</hash>
-        <hash alg="SHA-512">1e08c29aeab97654d8307483c2972130a677f98595a8afce5856e11a724939ce36339625e171aaac7c2917bc0185287573062e0ce8d19644d4136cf0196d6ff5</hash>
-        <hash alg="SHA-384">2bf84d827c939b85575e610742c238ed8ae7fd2bb04b210829a3027548585dd64ce85528097974a679d268510a68a92f</hash>
-        <hash alg="SHA3-384">47fb6f970f1a453d87cb439bb296f748d45ebfaca7b948f1adea6c0a63ffc4b10189e3d2c9ff4c87cb4d6173bd086f19</hash>
-        <hash alg="SHA3-256">23928c153cdabcbc87cf27f142b801ab89dc7abf93ab48cc2f8e2c90bc739eee</hash>
-        <hash alg="SHA3-512">340633772ec59f93ded9d129b89552467c54ea121cfb5c4375e7ddf464a3d870c08628dceabe0bceafea6f16e2006dfafce7977e8669749e79adc329df6e037d</hash>
+        <hash alg="MD5">ecac6cbfeb8a42de73f1c042e2c3adaa</hash>
+        <hash alg="SHA-1">058d29324a61a7c8d010116088b74451e0c2bddd</hash>
+        <hash alg="SHA-256">020277f16b156f6b623f0bcdc8dd792b2baa8bccc8ddbe11bf3accdfcee6b177</hash>
+        <hash alg="SHA-512">b241ef3cbfdddfd2b807719cb27a539d8069ec415507ec6f486e0a73027a6d104e830ae6168f886d2f5111e5d6997254b9278a66a7d7eaf5182f785cf02a3b76</hash>
+        <hash alg="SHA-384">ac71518da2f33aad26c608182a788d1f814bbd41f8d9d2712a0e3e68a047cc12688723e1606150d68206ec6ee47e7327</hash>
+        <hash alg="SHA3-384">b6dc760b592eefce9532deb007dd37c26bcc45a0baf24c0a1d0278cbecc0bb93a575944b0c48efc9c002cafd21fd1cf3</hash>
+        <hash alg="SHA3-256">c56370c422f7b567a5cf7459fa6f5a895d9b669c43c9a60f9e46bf2a910bc2ee</hash>
+        <hash alg="SHA3-512">eac9c58c6cc2023644d7b12fb0edb9af109644540945ed75417ce58925be8e558850bff51fc0afebac50cd3eaa7a77a76478f851e2b56331d2290a3979427be6</hash>
       </hashes>
       <licenses>
         <license>
@@ -483,14 +483,14 @@
       <description>RunedUniverse Utilities Project</description>
       <scope>required</scope>
       <hashes>
-        <hash alg="MD5">6bfe0a28008a8f41e4ed6b224c95ed2f</hash>
-        <hash alg="SHA-1">77b1da7195649a78eda863c935979b62466d16c6</hash>
-        <hash alg="SHA-256">f75276405ccbc52ddde5dd9606c0a6230ef4d73b5a651eaf13687b42f6a9ac55</hash>
-        <hash alg="SHA-512">5a18c163fa574b1d9ff86f256e31fe3be0ceab95c7a51f28a6a83079a3a54d150dca8dd0220ef3caff5c5d7aefc81be3e563f40c49101e3021f52fabbda8ed14</hash>
-        <hash alg="SHA-384">2ab39fe78c4b66ef76554f6ca56345432c7d038f7bc09ced66b9d2039aab3acc8e7aaf28e15272054730ceee5458fe08</hash>
-        <hash alg="SHA3-384">904dcda54e02bf443c6b63c01f61685f4a0eeaf5ea6cca0dfcf000a0b96812fb5a3cc0a6e3a702300426d845d3c660ad</hash>
-        <hash alg="SHA3-256">c1929653d44a0c994ff278c241c6729b7ff4a1de64aa18c9509ad1a6e6a6573b</hash>
-        <hash alg="SHA3-512">ab9d52cc005f42b56d436bedc7d5968c8091ef2262faac614c0a5307634db313d44cba1e7787d7bd389c67bcd02ee229aca3888ce9126079ad1e138cccc8c9cd</hash>
+        <hash alg="MD5">cb0133df5af4d1e673ac968b10f2210e</hash>
+        <hash alg="SHA-1">e2f6a219df1666cb2626616b9ba2e5a8da2f5d26</hash>
+        <hash alg="SHA-256">ef5ce69ae1d797bbde67475f1231ca4151167e67ca0358aa3486a705961d467e</hash>
+        <hash alg="SHA-512">ad476080dcb3d256825ab51f04fd77d85dc462a766f0cffd4632b61cbc42b438d8051ff65d1ca6a9ae15807c1f997794a837d5f5b040a25b7813cefeb746e681</hash>
+        <hash alg="SHA-384">63f0cbaaeb134d68db48c864e6a5484bb592f1a38a513110ad089233908070be935ebf1dee58bb77e22bc0098d78294c</hash>
+        <hash alg="SHA3-384">4c2fd18ee407d4edb7efeffeeed92b1bd20e40fc6abe1a73c208887c692bb52f30bb8fc08af4d45462124e714eb6f1c9</hash>
+        <hash alg="SHA3-256">0c4c9c0a67f1029c5239b4f4b1e2553b170186259018261e890ef9575eadc6e4</hash>
+        <hash alg="SHA3-512">8fa20020cd408cb211cfdd465605923d2dd94f5bffe0a6625cf2c4ee59b1866f9b9a00ce09c5c4fd38ab8563f79f298c7bff759e763ced2209ae6da3c0457ccf</hash>
       </hashes>
       <licenses>
         <license>
