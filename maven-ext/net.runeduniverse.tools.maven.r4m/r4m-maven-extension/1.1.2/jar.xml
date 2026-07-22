@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom serialNumber="urn:uuid:c20a5393-1882-3711-be3c-5f8558b1bb25" version="1" xmlns="http://cyclonedx.org/schema/bom/1.6">
+  <metadata>
+    <timestamp>2026-07-22T14:28:42Z</timestamp>
+    <component type="library" bom-ref="pkg:maven/net.runeduniverse.tools.maven.r4m/r4m-maven-extension@1.1.2?type=jar">
+      <publisher>RunedUniverse</publisher>
+      <group>net.runeduniverse.tools.maven.r4m</group>
+      <name>r4m-maven-extension</name>
+      <version>1.1.2</version>
+      <description>Runes4Maven (r4m) Maven Extension provides an alternative way
+		for defining maven executions and adds QoL improvements</description>
+      <hashes>
+        <hash alg="MD5">f2df72c2662da5e0d1333fe75cff98d7</hash>
+        <hash alg="SHA-1">1b3ee9df5f646d2a63bd3ad0310fb7d840415e38</hash>
+        <hash alg="SHA-256">561ae939937b7353893ebdc8a4e584fcbf0f2a22e4833c26acd27ecc9eff6402</hash>
+        <hash alg="SHA-512">0e89c76e5f2e6fabe73ddc3776cfcc28984e9948b6f8dd92944734dd53bf6463b7a120ac86263534f0f357ff8666681baf1fbcba0030af2c6903cef9c332f0ae</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/net.runeduniverse.tools.maven.r4m/r4m-maven-extension@1.1.2?type=jar</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/RunedUniverse/r4m-maven-extension</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/RunedUniverse/r4m-maven-extension/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/RunedUniverse/r4m-maven-extension</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <properties>
+      <property name="maven.scopes">compile,runtime,system</property>
+    </properties>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:maven/net.runeduniverse.tools.maven.r4m/r4m-api@1.1.0?type=jar">
+      <publisher>RunedUniverse</publisher>
+      <group>net.runeduniverse.tools.maven.r4m</group>
+      <name>r4m-api</name>
+      <version>1.1.0</version>
+      <description>Runes4Maven (r4m) Maven Extension provides an alternative way
+		for defining maven executions and adds QoL improvements</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">5c063ebbb9863d39796cbc34766f9902</hash>
+        <hash alg="SHA-1">0374aca3ad74c2e3f7b4e8a0c1dc066dbfb9a047</hash>
+        <hash alg="SHA-256">3d9daf757dfa65a11fd42a9b33b4732c5a0e5c7209a9e9b207fdbc9a93d56618</hash>
+        <hash alg="SHA-512">84a795fb5f1b7896aef9841e01d88d8e164fd00605b0bf51933aaa1270c30e5779edc91823cb77aaf07120952e8e05cd50791171f11333c61fb01bec25b2ea4f</hash>
+        <hash alg="SHA-384">a0b8cfd8b9e8b03f53fcd5d023d85833142f626364df9784cf25c013432559c07e43b14ec1e3f7f69d7eb3d1659c4cd0</hash>
+        <hash alg="SHA3-384">ac1e2742b330d098e4f3b810f0320d2de551a7c7cd5af14e2f7d8d1cb39b536e956a971e0e2c217d3b953d0809aa69a2</hash>
+        <hash alg="SHA3-256">e0c5afa0e4b7c75036abb60ec91fcaa44f1e19280dc0c732b79830970f44e727</hash>
+        <hash alg="SHA3-512">5c5254398b899bc67ee72441b1c59ad81ea584056f746fa1b4c8754d4d21ecbd78c2c6b7e45dbec25f1de5be9b186331ccaf5e362fcbf78a529a625f60efc553</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/net.runeduniverse.tools.maven.r4m/r4m-api@1.1.0?type=jar</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/RunedUniverse/r4m-maven-extension</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/RunedUniverse/r4m-maven-extension/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/RunedUniverse/r4m-maven-extension</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/net.runeduniverse.lib.utils/utils-logging-api@2.0.0?type=jar">
+      <publisher>RunedUniverse</publisher>
+      <group>net.runeduniverse.lib.utils</group>
+      <name>utils-logging-api</name>
+      <version>2.0.0</version>
+      <description>RunedUniverse Utilities Project</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">add004249b742409f07b1f7507af767b</hash>
+        <hash alg="SHA-1">5926abb0c22bb1f6d24e6970e69752f161724822</hash>
+        <hash alg="SHA-256">d93ab6a313a40acb801227d886f8d299cb6ff03845b9af004a18fc0a9c5106b2</hash>
+        <hash alg="SHA-512">203e7f987bd42744af5d6333aea1ead2849f36c53fbc81c78e28165386a7ad9865a8c8bee7d9ab24210b49b068f7c43b78784b9c5f5ad632d8810d717770f52c</hash>
+        <hash alg="SHA-384">9c4fa478825cf939e8972d33c6ca65276f47b295763348bae7d99bcaa0f64be4f55a6c53821484bae598d95fcf593320</hash>
+        <hash alg="SHA3-384">c1f464cf506b144f554cf7c31d4b8ea97967b11bac1ef4cf96d1a3b4c38f71fea3b9526928253bde15361203c743c6cf</hash>
+        <hash alg="SHA3-256">782dc4a9f0d0b2a41164f2ea69fd2da8fa0794128782010f74010c4d96c193db</hash>
+        <hash alg="SHA3-512">caad3923e6ee96b3cac7648fda56a7f48f98c7d66f8dfe094f89700ecbe1d5406ade05c8466c0cf2123f98c6d952412a4e719be9e22a16d65a495082f14a3992</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/net.runeduniverse.lib.utils/utils-logging-api@2.0.0?type=jar</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/RunedUniverse/utils</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/RunedUniverse/utils/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/RunedUniverse/utils</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/net.runeduniverse.lib.utils/utils-conditional-api@2.0.0?type=jar">
+      <publisher>RunedUniverse</publisher>
+      <group>net.runeduniverse.lib.utils</group>
+      <name>utils-conditional-api</name>
+      <version>2.0.0</version>
+      <description>RunedUniverse Utilities Project</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">6aa6aba26cb8906adde79ea2be67a6be</hash>
+        <hash alg="SHA-1">c4b671c1cdce4c94ddadec46988157703b0bb934</hash>
+        <hash alg="SHA-256">3c18ba46e5f0e1824b55baa45a3ffc927134b922f8440be6053c146286c9dc90</hash>
+        <hash alg="SHA-512">d715b6f2fc3fa787d9688033931e4f9804558cf3922cbe28b8ff91c8f5706c28d57e1d8b7a5ceb34f04c7662351e719ed01a88fdd40beb957f9de572f20207b2</hash>
+        <hash alg="SHA-384">5465ded86a4f800d9049bf6f18b7b1f80abe7c2dac67327c86d6ef6e2d99dee1d03f100fbfe84a5f4f30e325a7dc92ca</hash>
+        <hash alg="SHA3-384">8c4d8e88ffbacae6f6b27c7994fd072f43ca1b424c798bc4c34a27c2ab36627d4741d02308fcf71640cee15467089071</hash>
+        <hash alg="SHA3-256">6787d26fe79a9edb909676fe75baeec99fc85545ffa2361990450f1e559c8217</hash>
+        <hash alg="SHA3-512">80b000c8811d51cdafdb3f8659ca3673288cf50a7f4ae00e24e6546569c7b98d48951f0955fa912e7aa30d690b69c335f319404578847577a664124bb35f2e76</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/net.runeduniverse.lib.utils/utils-conditional-api@2.0.0?type=jar</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/RunedUniverse/utils</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/RunedUniverse/utils/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/RunedUniverse/utils</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/net.runeduniverse.lib.utils/utils-maven3-api@2.0.0?type=jar">
+      <publisher>RunedUniverse</publisher>
+      <group>net.runeduniverse.lib.utils</group>
+      <name>utils-maven3-api</name>
+      <version>2.0.0</version>
+      <description>RunedUniverse Utilities Project</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">cb0133df5af4d1e673ac968b10f2210e</hash>
+        <hash alg="SHA-1">e2f6a219df1666cb2626616b9ba2e5a8da2f5d26</hash>
+        <hash alg="SHA-256">ef5ce69ae1d797bbde67475f1231ca4151167e67ca0358aa3486a705961d467e</hash>
+        <hash alg="SHA-512">ad476080dcb3d256825ab51f04fd77d85dc462a766f0cffd4632b61cbc42b438d8051ff65d1ca6a9ae15807c1f997794a837d5f5b040a25b7813cefeb746e681</hash>
+        <hash alg="SHA-384">63f0cbaaeb134d68db48c864e6a5484bb592f1a38a513110ad089233908070be935ebf1dee58bb77e22bc0098d78294c</hash>
+        <hash alg="SHA3-384">4c2fd18ee407d4edb7efeffeeed92b1bd20e40fc6abe1a73c208887c692bb52f30bb8fc08af4d45462124e714eb6f1c9</hash>
+        <hash alg="SHA3-256">0c4c9c0a67f1029c5239b4f4b1e2553b170186259018261e890ef9575eadc6e4</hash>
+        <hash alg="SHA3-512">8fa20020cd408cb211cfdd465605923d2dd94f5bffe0a6625cf2c4ee59b1866f9b9a00ce09c5c4fd38ab8563f79f298c7bff759e763ced2209ae6da3c0457ccf</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/net.runeduniverse.lib.utils/utils-maven3-api@2.0.0?type=jar</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/RunedUniverse/utils</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/RunedUniverse/utils/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/RunedUniverse/utils</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/net.runeduniverse.lib.utils/utils-maven3@2.0.0?type=jar">
+      <publisher>RunedUniverse</publisher>
+      <group>net.runeduniverse.lib.utils</group>
+      <name>utils-maven3</name>
+      <version>2.0.0</version>
+      <description>RunedUniverse Utilities Project</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">ecac6cbfeb8a42de73f1c042e2c3adaa</hash>
+        <hash alg="SHA-1">058d29324a61a7c8d010116088b74451e0c2bddd</hash>
+        <hash alg="SHA-256">020277f16b156f6b623f0bcdc8dd792b2baa8bccc8ddbe11bf3accdfcee6b177</hash>
+        <hash alg="SHA-512">b241ef3cbfdddfd2b807719cb27a539d8069ec415507ec6f486e0a73027a6d104e830ae6168f886d2f5111e5d6997254b9278a66a7d7eaf5182f785cf02a3b76</hash>
+        <hash alg="SHA-384">ac71518da2f33aad26c608182a788d1f814bbd41f8d9d2712a0e3e68a047cc12688723e1606150d68206ec6ee47e7327</hash>
+        <hash alg="SHA3-384">b6dc760b592eefce9532deb007dd37c26bcc45a0baf24c0a1d0278cbecc0bb93a575944b0c48efc9c002cafd21fd1cf3</hash>
+        <hash alg="SHA3-256">c56370c422f7b567a5cf7459fa6f5a895d9b669c43c9a60f9e46bf2a910bc2ee</hash>
+        <hash alg="SHA3-512">eac9c58c6cc2023644d7b12fb0edb9af109644540945ed75417ce58925be8e558850bff51fc0afebac50cd3eaa7a77a76478f851e2b56331d2290a3979427be6</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/net.runeduniverse.lib.utils/utils-maven3@2.0.0?type=jar</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/RunedUniverse/utils</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/RunedUniverse/utils/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/RunedUniverse/utils</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/net.runeduniverse.lib.utils/utils-maven3-ext-api@2.0.1?type=jar">
+      <publisher>RunedUniverse</publisher>
+      <group>net.runeduniverse.lib.utils</group>
+      <name>utils-maven3-ext-api</name>
+      <version>2.0.1</version>
+      <description>RunedUniverse Utilities Project</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">547836ae9eb48500635cbe73ed978944</hash>
+        <hash alg="SHA-1">f09e64b1af079472bb6a83767f5cdbb1e83032cf</hash>
+        <hash alg="SHA-256">134498e673fcaf1059f50015f764a266e404c9497ec57e5a317a1f0a3c9349f8</hash>
+        <hash alg="SHA-512">497abb6a5edaea99bc390b02525af0d27a416ff1d2ca5b36a3063030eedf661816d6e76545257d2ae0816e4988a15534bd0ce4c686b2dc79816d41319dc78856</hash>
+        <hash alg="SHA-384">3ee87210e2ecba5455df61c15543959fc8ab6ccf4949e477b3e584b56c84a0c4f14fb2a77d02a3e05b388a6c218fbf60</hash>
+        <hash alg="SHA3-384">f1537d60b9bbfd3dabaa2de7066e988807c7fbccdee2a42a3ee75eaeed79d18394f715e1f0784cf66b0795dce9cbb314</hash>
+        <hash alg="SHA3-256">b2172f20e950aade420157fafc15e9d4e2c538045e7cd37c90424f34803f4eb4</hash>
+        <hash alg="SHA3-512">c38fbb8a0d6bfb6610fbedf82af3c72587ea2fd2fcf362bb2ea678380dfef73bcc4002dc3b43303e9e0b57a145b0fd0f443fecbdbb6d5ebf9d1352668d2df766</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/net.runeduniverse.lib.utils/utils-maven3-ext-api@2.0.1?type=jar</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/RunedUniverse/utils</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/RunedUniverse/utils/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/RunedUniverse/utils</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/net.runeduniverse.lib.utils/utils-config-api@2.0.0?type=jar">
+      <publisher>RunedUniverse</publisher>
+      <group>net.runeduniverse.lib.utils</group>
+      <name>utils-config-api</name>
+      <version>2.0.0</version>
+      <description>RunedUniverse Utilities Project</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">cc3fd428299861703e93df3723d38b27</hash>
+        <hash alg="SHA-1">650fb3fd1b7b0fe55c2a0d304b5166fa736c1abc</hash>
+        <hash alg="SHA-256">633ae5c4a0a3f3fab7627ce1a89fb216ed1bfbd1436f8e4ec528b1ed452668d4</hash>
+        <hash alg="SHA-512">df48bf1c30d0872d0729292ea25e45814756d1179579f3246753c445f2bd514dff5e1759a9e9c79187bf68cdf1c1921f4e66dd07bb0604c17a248046b92dbbec</hash>
+        <hash alg="SHA-384">94ac2ad09a0141fa89eaae0147e1e8a6088b12c1fb915ad6c6918d691e2193e09527ba5e9f8310193e30368ca120d895</hash>
+        <hash alg="SHA3-384">de4b631b1a4c0d55828f46f81113e3c9c14f20166d5bd71126ae3eeba8119cee7fd7e44e091c95cde018248613d15df2</hash>
+        <hash alg="SHA3-256">83890f0f66254d5334e9375ce5a4492048278b6c0e5126f6eda0649609cec64f</hash>
+        <hash alg="SHA3-512">4b4494399f3c773018fa305ad3847a3685f705cc8e19c11448b701a873afeb04ff5a690cc2f272597549253db4f96b2b4190e49e2badec989351b2f610a18090</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/net.runeduniverse.lib.utils/utils-config-api@2.0.0?type=jar</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/RunedUniverse/utils</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/RunedUniverse/utils/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/RunedUniverse/utils</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/net.runeduniverse.tools.maven.r4m/r4m-model@1.1.0?type=jar">
+      <publisher>RunedUniverse</publisher>
+      <group>net.runeduniverse.tools.maven.r4m</group>
+      <name>r4m-model</name>
+      <version>1.1.0</version>
+      <description>Runes4Maven (r4m) Maven Extension provides an alternative way
+		for defining maven executions and adds QoL improvements</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">f8eb8110872b092b8d43d4fd56ef9224</hash>
+        <hash alg="SHA-1">f3c4edf3bed469b3ec96e2a071bc4a536b447fa2</hash>
+        <hash alg="SHA-256">b267ce5fecc869026d2e23a466f47ee9f7e654f605b9c9de29c5a67042e716bd</hash>
+        <hash alg="SHA-512">2bc5495392ea0a5f662814a1c132b5effbaddd347b3acd58ce67ac81fb9b7bd235140d39c279c1b83446c4fd0c1e639542e7ece6a6c42ed4959b405ae07ad70a</hash>
+        <hash alg="SHA-384">0639d386df111392e3418db1aaf1be036a07ab5b821bfb261d2bfc9e7ddc5df132901e7cffed0fa322327761a2d76617</hash>
+        <hash alg="SHA3-384">7136e987fe14d8159ffba8b1ba5cba5d2055cdccfdfa4fb762d43f90fa0ee9fe2ef92f9d064ee3dbb79a10f680e80c9c</hash>
+        <hash alg="SHA3-256">2a8959f6f109c784d839ed95f4013c2299309513665ad9f0734829c790ebe2ae</hash>
+        <hash alg="SHA3-512">0431c1608a174149f8cf14e05fab1e19e124802edaa8bd8c09474a1e0731c711de2381ada8bcc90874dbfb7de8203781d8924687f6de4ca5e90bd225248386ea</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/net.runeduniverse.tools.maven.r4m/r4m-model@1.1.0?type=jar</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/RunedUniverse/r4m-maven-extension</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/RunedUniverse/r4m-maven-extension/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/RunedUniverse/r4m-maven-extension</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/net.runeduniverse.tools.maven.r4m/r4m-model-builder@1.1.1?type=jar">
+      <publisher>RunedUniverse</publisher>
+      <group>net.runeduniverse.tools.maven.r4m</group>
+      <name>r4m-model-builder</name>
+      <version>1.1.1</version>
+      <description>Runes4Maven (r4m) Maven Extension provides an alternative way
+		for defining maven executions and adds QoL improvements</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">ed065291244e835867859935becdef68</hash>
+        <hash alg="SHA-1">6e0b6d623df7cd7123290582440662c94b7718cf</hash>
+        <hash alg="SHA-256">10fe02bd5032f5d0d82206cb54827cde88c487715c9c55463c87cf17e65fa526</hash>
+        <hash alg="SHA-512">420135bea18a60a76f6c4732b1144873bd8eb7b19b444b453cef61b4eb47a85edae2b7af106cb3b605544081845f858d92e5df8704f669460175b7fc750ac79e</hash>
+        <hash alg="SHA-384">23eeb01731642efc22976ae1ea8fd82bf699a70e1734d40aa9825cef7cd2c264615fa94f0eb7b8c4e15a3deb74c3a6f1</hash>
+        <hash alg="SHA3-384">cb877b4892ee3ca6d7ccca86222574d511dbe2af64d906a063d0ae8fbe7ec4ba5811114bb562584f230dcac0d726e23d</hash>
+        <hash alg="SHA3-256">493998f98e1e12b4ccfed98b772c0d7a9ab96131a7de58233f257a6a44a3e54b</hash>
+        <hash alg="SHA3-512">d52e15241a6af832ca93895227efea1158a1f42c8d5194220a1e509bf95e1cdf4032785a0662e4e63766b430fc4103aad1927ec38c064b701538b3031249206f</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/net.runeduniverse.tools.maven.r4m/r4m-model-builder@1.1.1?type=jar</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/RunedUniverse/r4m-maven-extension</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/RunedUniverse/r4m-maven-extension/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/RunedUniverse/r4m-maven-extension</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/commons-io/commons-io@2.6?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>commons-io</group>
+      <name>commons-io</name>
+      <version>2.6</version>
+      <description>The Apache Commons IO library contains utility classes, stream implementations, file filters,
+file comparators, endian transformation classes, and much more.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">467c2a1f64319c99b5faf03fc78572af</hash>
+        <hash alg="SHA-1">815893df5f31da2ece4040fe0a12fd44b577afaf</hash>
+        <hash alg="SHA-256">f877d304660ac2a142f3865badfc971dec7ed73c747c7f8d5d2f5139ca736513</hash>
+        <hash alg="SHA-512">4de22e2a50711f756a5542474395d8619dca0a8be0407b722605005a1167f8c306bc5eef7f0b8252f5508c817c1ceb759171e4e18d4eb9697dfdd809ac39673f</hash>
+        <hash alg="SHA-384">1efcb8c663fff4cf7f2bc86e1a367b5f88819a6a2f80341fd5d41ad82eb0adda9f34a05c20115f461bee64d1ab487e3c</hash>
+        <hash alg="SHA3-384">47f8067345da2e60493ced8f5852b5a9ee5fd1ee141c03177f132f97fa4beccd3c3f649276cbcb06a3fa2d0b39e20369</hash>
+        <hash alg="SHA3-256">12e088d6b2f63a97e29d4cf1a81dbe311a0110e784677698a2eaa0b63785dc6e</hash>
+        <hash alg="SHA3-512">82e8aa5fb7b8801b94c83f912dc863ff1b569a281081d33ca7e512a694202aebb60101b54bc9ba0a3b6a769221667a3d222b67102377d554603678798ca22d07</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/commons-io/commons-io@2.6?type=jar</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>http://commons.apache.org/proper/commons-io/</url>
+        </reference>
+        <reference type="build-system">
+          <url>https://builds.apache.org/</url>
+        </reference>
+        <reference type="distribution-intake">
+          <url>https://repository.apache.org/service/local/staging/deploy/maven2</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>http://issues.apache.org/jira/browse/IO</url>
+        </reference>
+        <reference type="mailing-list">
+          <url>http://mail-archives.apache.org/mod_mbox/commons-user/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://git-wip-us.apache.org/repos/asf?p=commons-io.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.commons/commons-lang3@3.8.1?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.commons</group>
+      <name>commons-lang3</name>
+      <version>3.8.1</version>
+      <description>Apache Commons Lang, a package of Java utility classes for the
+  classes that are in java.lang's hierarchy, or are considered to be so
+  standard as to justify existence in java.lang.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">540b1256d887a6993ecbef23371a3302</hash>
+        <hash alg="SHA-1">6505a72a097d9270f7a9e7bf42c4238283247755</hash>
+        <hash alg="SHA-256">dac807f65b07698ff39b1b07bfef3d87ae3fd46d91bbf8a2bc02b2a831616f68</hash>
+        <hash alg="SHA-512">fb0fe98385496a565678a000c26a3245082abfbf879cc29a35112b4bf18c966697a7a63bb1fd2fae4a42512cd3de5a2e6dc9d1df4a4058332a6ddeae06cdf667</hash>
+        <hash alg="SHA-384">72c6fd199936f06db886eba9dccd188e26afabf7b9e6744cea18f27e414abfe04d3d3f609f8505311a01f43e885bec1a</hash>
+        <hash alg="SHA3-384">3b6eede7aaff2bbbf5133872b59e9c4932e60064951a68c219f128a8c3a2556c25c2c90a599b342ee3fdef25a745a474</hash>
+        <hash alg="SHA3-256">4e708ddf8ed0c6dbd8c6bba07e06425b5d263d899884b91bf11f86ec0d6f8463</hash>
+        <hash alg="SHA3-512">f43e89519e803e976f7b4d756d934be802ab36077cf2dc38dd9aa901eaf7104e58157859f45ccef7b38e072007a60f17270923e2ed7eabd41a4c776dee1458e1</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.commons/commons-lang3@3.8.1?type=jar</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>http://commons.apache.org/proper/commons-lang/</url>
+        </reference>
+        <reference type="build-system">
+          <url>https://builds.apache.org/</url>
+        </reference>
+        <reference type="distribution-intake">
+          <url>https://repository.apache.org/service/local/staging/deploy/maven2</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>http://issues.apache.org/jira/browse/LANG</url>
+        </reference>
+        <reference type="mailing-list">
+          <url>http://mail-archives.apache.org/mod_mbox/commons-user/</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://git-wip-us.apache.org/repos/asf?p=commons-lang.git</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/net.runeduniverse.lib.utils/utils-common@2.0.1?type=jar">
+      <publisher>RunedUniverse</publisher>
+      <group>net.runeduniverse.lib.utils</group>
+      <name>utils-common</name>
+      <version>2.0.1</version>
+      <description>RunedUniverse Utilities Project</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">5c98711b7f79bef0614ef48b5bf88958</hash>
+        <hash alg="SHA-1">f19a32525f58ba9069210724900657bc67125469</hash>
+        <hash alg="SHA-256">89f7bfcedfc9d2c6aa75ac8bbffbe5c57f4b6692144efc05e8092284d3b8a74f</hash>
+        <hash alg="SHA-512">964343a30b3535591b21e4c21faf753d7a722c827db07a04305a28db177fa09572f3382922b3c0e730b43753a3bebfe64639663ad98b9b8bb915084c2e4dcf19</hash>
+        <hash alg="SHA-384">b43f7cd46478e698ab4731e8d405539e55d6f41c7a2048f4806562a5d01d2a468de3d16b7f1da0fc02f5383852935798</hash>
+        <hash alg="SHA3-384">447067a9e5c53babc0f9a7c4f105f161c0cceba5f168e9581c533154e1c9e20b136e7fc5ccecc428eb000897f8a380f1</hash>
+        <hash alg="SHA3-256">3f7d655563ff96743e6e36b4d499dbddbe1f0449bba894912eb497980f99256f</hash>
+        <hash alg="SHA3-512">09273dfcbc61f944fec77de121712e4a0962dbd20a1b9b2bc809e7fa9b2a61d97089e36c9211e113433b6ddb145f4c22fdbfd6706ddd4e0d2f44dbce96e6ce2e</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/net.runeduniverse.lib.utils/utils-common@2.0.1?type=jar</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/RunedUniverse/utils</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/RunedUniverse/utils/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/RunedUniverse/utils</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/net.runeduniverse.lib.utils/utils-common-api@2.0.0?type=jar">
+      <publisher>RunedUniverse</publisher>
+      <group>net.runeduniverse.lib.utils</group>
+      <name>utils-common-api</name>
+      <version>2.0.0</version>
+      <description>RunedUniverse Utilities Project</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">02a0118e80cd6b79d0f621c8b02e45cd</hash>
+        <hash alg="SHA-1">6b7c5a263b741a1fa0b2dbbdc550b47031f178c6</hash>
+        <hash alg="SHA-256">ddb9d7edcd4273521c3f1ea129ddddc6b4f5029a23278b7a927afb1b8232d555</hash>
+        <hash alg="SHA-512">8f620c9c7ef8448026a7a8355a0cf80f6b970ae95fb043f7ad9274fd6017aec959efcb236a8c529e0937a436ecdd334f3b26ad89843e45bda458cefc299a614d</hash>
+        <hash alg="SHA-384">6428a6305d45254562fca8edba60745ee00022657249af92303265b5cb7a50ebef3d0d50a76edd840a073c992d808102</hash>
+        <hash alg="SHA3-384">d6f18808213839af4b038cf4297618b9791de5c4e162a5657cd6e4ea1be90fe46444fbae6981238a7cef8162de9a24d2</hash>
+        <hash alg="SHA3-256">2387ea9d8845e8180b0ce311bdac04f444dc766c4f58ce704d7d2a2654225d0a</hash>
+        <hash alg="SHA3-512">d260e3444f9f42b8b29fda0e128a09b02f99372ea78533cabff7c7916a980297be45cbe3ba11f9917e6ca6714b53ede6f8d37c0622ba7cae638713110d2b9de1</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/net.runeduniverse.lib.utils/utils-common-api@2.0.0?type=jar</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/RunedUniverse/utils</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/RunedUniverse/utils/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/RunedUniverse/utils</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/net.runeduniverse.lib.utils/utils-logging@2.0.0?type=jar">
+      <publisher>RunedUniverse</publisher>
+      <group>net.runeduniverse.lib.utils</group>
+      <name>utils-logging</name>
+      <version>2.0.0</version>
+      <description>RunedUniverse Utilities Project</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">8ff094205548820aa8f279b4605e7340</hash>
+        <hash alg="SHA-1">55b14ead8ac9f31b7f9a4bf8846eddceab568365</hash>
+        <hash alg="SHA-256">0fccdee0e6bee3dc79ac7a065ed05510a806cfb9d61db1d431bf565283b98c00</hash>
+        <hash alg="SHA-512">d48b6b4c7e406f01e99d0c8e1b774f423b3065c122c74c603d63f6a2dfd5b8e0db21491684462553d5a2b03d41188573265650c36d61364fa9ea037cd74d369e</hash>
+        <hash alg="SHA-384">9eaf341baecbb165de98269871b20bd19fd91a298b9881f89a9a8ff7252261fd50c600e5ca4660ea296010c066cf3b69</hash>
+        <hash alg="SHA3-384">0b060f91fe3943716894b5bba943722748ede3921ca81c030974b7a6e732b6b649b8ff250fc0fac2fce720618ade84c3</hash>
+        <hash alg="SHA3-256">a6841c40948d7e87b74cc5ccbd1fb7be02a5ab3816ff02b4c197372fdf3f0000</hash>
+        <hash alg="SHA3-512">6825cb0cb62085d1fc6681ba1764b357123228ba8749b355a4292d60bc341f40fa7fb71e229d69f5e434b4ece29c82ee1e98bac71fef9c196632d70d23b38775</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/net.runeduniverse.lib.utils/utils-logging@2.0.0?type=jar</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/RunedUniverse/utils</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/RunedUniverse/utils/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/RunedUniverse/utils</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/net.runeduniverse.lib.utils/utils-plexus@2.0.0?type=jar">
+      <publisher>RunedUniverse</publisher>
+      <group>net.runeduniverse.lib.utils</group>
+      <name>utils-plexus</name>
+      <version>2.0.0</version>
+      <description>RunedUniverse Utilities Project</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">bda2cfcf3d88aa4aae6dccbf2b180fc2</hash>
+        <hash alg="SHA-1">4f67def824d3e1b97b8c2d54af725a15009af27b</hash>
+        <hash alg="SHA-256">62611eeb628300c0643225c7aa884db555866c59a213e0fda0e7d3112733f6c3</hash>
+        <hash alg="SHA-512">0a51a749e64cb9b31743f9130ccc754ce73f0a1777ffbbef3b828a1c6f64d76452f0d33d1eeed71b4b6f804de5813d138445bf4e20661056106e3400bc1adb0a</hash>
+        <hash alg="SHA-384">7f5d828801ffb755e7e2b91e4f0a39ed694e9916ae02f3ed112431ce29059a010f8f582c05127f881b6705bf7829d738</hash>
+        <hash alg="SHA3-384">d23de2a327e64639a3b0e90fda33fcafcc02d29b7f52f9c7836214f36c260aa505663cfec5dfeec5c600e75f583ddb8e</hash>
+        <hash alg="SHA3-256">9876ec5dcbb718707850d73c84e66ae58d73383c18d624e31629cc6b3e2175d0</hash>
+        <hash alg="SHA3-512">ba1ea2da7899c8e09bfa1c529582e00e22f58e2509152bee56990eb6b35c2b5e17fe8ed97f645f72bdee87436f79b8ef3b513574c0912199ca35f6b98423408b</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/net.runeduniverse.lib.utils/utils-plexus@2.0.0?type=jar</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/RunedUniverse/utils</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/RunedUniverse/utils/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/RunedUniverse/utils</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/net.runeduniverse.lib.utils/utils-maven3-ext@2.0.1?type=jar">
+      <publisher>RunedUniverse</publisher>
+      <group>net.runeduniverse.lib.utils</group>
+      <name>utils-maven3-ext</name>
+      <version>2.0.1</version>
+      <description>RunedUniverse Utilities Project</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">d36beb95aa31d75da795fb243e9096b9</hash>
+        <hash alg="SHA-1">7b7d8395f1d484958eb6b44c7c88f1fd597b766b</hash>
+        <hash alg="SHA-256">c94e3258a010ee5872dad188b5d9845e9420e6a8c057de2b4e3bab2b04199d28</hash>
+        <hash alg="SHA-512">4850332ec513508563eacba5c06e124c574827d1f83672fa33ec25c59caf699b1fd3c5d50c38f4bf72eaa424cac24a8660eccea2754c2fa85d1b3adf0b657728</hash>
+        <hash alg="SHA-384">8156589acf181f645dc5b2b8df4763482497adfc98fdee37337c892b8865de525f00b5c409bcb9797505a1a0162ff4e1</hash>
+        <hash alg="SHA3-384">66fd060f8bc2d05058c9b11302b2de6b992c60093cf14ff1d1b5c9d6d3bf1b8c2cf4e5d82d56c4b2959b456e37c9dd1f</hash>
+        <hash alg="SHA3-256">feae896132199c6f5ca8f079e3e7ca6acf2afda3b31e92e362c9ffa4b6e3524a</hash>
+        <hash alg="SHA3-512">c7714fb641baf611a36d517282e93fcbe369a6375cbac2c59c1f0e37c522deada1dac7a7ea46bc84a1031e12c1de29445d7bde64e46392c43b0fdd9e9b70e29a</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/net.runeduniverse.lib.utils/utils-maven3-ext@2.0.1?type=jar</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/RunedUniverse/utils</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/RunedUniverse/utils/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/RunedUniverse/utils</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/net.runeduniverse.lib.utils/utils-config@2.0.0?type=jar">
+      <publisher>RunedUniverse</publisher>
+      <group>net.runeduniverse.lib.utils</group>
+      <name>utils-config</name>
+      <version>2.0.0</version>
+      <description>RunedUniverse Utilities Project</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">040455634df3618d1c21b3afd92f69be</hash>
+        <hash alg="SHA-1">a5cdfbb602914f56b5706c6a5a0780812e31d092</hash>
+        <hash alg="SHA-256">19cffb4502ee8a8d26f0a72a3dab0368ad3db409ee4df778cbf253f65929123e</hash>
+        <hash alg="SHA-512">8766b7e34570810168a8798568400764e806a87f397c64b9d237db8ce8ccb4323859a01ecebb6b7378ff05730701600b4e1d02a2912119cbac16a9cde210742a</hash>
+        <hash alg="SHA-384">d52b906a8904a2523dc31ec1e852e28af2d8f70e20a842bee51288bf4e69fe7ba81a261c0be54ee1703adfb546ceff0b</hash>
+        <hash alg="SHA3-384">68834b5167f90a115fbe05c9cc82552eca32c9886bff0eadc1abefde0b9ca7f2c5c00ab9ea2d7a7f8442b0ce46288d6f</hash>
+        <hash alg="SHA3-256">6b50857ef349085fd451aad185dff7bdcd82ef0784ebb51426aea6ccf3ae5a1d</hash>
+        <hash alg="SHA3-512">64b1be22722f34b7c7c7be98d7aae57ab0d73256a8d593d3b60611588ee7640b88f0171da21509d5a5779652cc12f77cbc49dcaf80120308e7b8422f87cb3d88</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/net.runeduniverse.lib.utils/utils-config@2.0.0?type=jar</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/RunedUniverse/utils</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/RunedUniverse/utils/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/RunedUniverse/utils</url>
+        </reference>
+      </externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/net.runeduniverse.lib.utils/utils-conditional@2.0.0?type=jar">
+      <publisher>RunedUniverse</publisher>
+      <group>net.runeduniverse.lib.utils</group>
+      <name>utils-conditional</name>
+      <version>2.0.0</version>
+      <description>RunedUniverse Utilities Project</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">80e8c200aef45853421761dcb41dd345</hash>
+        <hash alg="SHA-1">334b16789233a045334d7aa59c1b89d6f37c2174</hash>
+        <hash alg="SHA-256">1e7a3f5e80b76812cefdd9b6ea67be19cde187e66b52318e1dfb070cc9d2caea</hash>
+        <hash alg="SHA-512">8d01ef6137804ec8a5403802b49472b7c65b8bde82eecacbf786cfde8032354221b0f191f9d88ccc05d3bbff6deae20dd6e21ab1792cef9c19439522e1ce9848</hash>
+        <hash alg="SHA-384">3f0bf81f7d3ea9997c4480e3d8866285c748ccbbbf2418835b027400e28ef6019e37c156874e966d98c8d9a3f0530612</hash>
+        <hash alg="SHA3-384">04020e92e3bb9a735b91bb1051bfa507ec0418cbb145b42b5849f5cf4e9e7febf073ec92ead5b68e04826f1eb9968822</hash>
+        <hash alg="SHA3-256">47cb78140cfa03515361d392c6a694cd9d5ce3c071aafc778b13f6d6d435a2be</hash>
+        <hash alg="SHA3-512">b2ba33dda0d68a2a9c6c9a693fb7c59e7be50034c7cccad620d7c9f33f1e35f4db976fc37d20225d5c2060550a5447b5ce568fcc3b61a964b37b501744b606b0</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/net.runeduniverse.lib.utils/utils-conditional@2.0.0?type=jar</purl>
+      <externalReferences>
+        <reference type="website">
+          <url>https://github.com/RunedUniverse/utils</url>
+        </reference>
+        <reference type="issue-tracker">
+          <url>https://github.com/RunedUniverse/utils/issues</url>
+        </reference>
+        <reference type="vcs">
+          <url>https://github.com/RunedUniverse/utils</url>
+        </reference>
+      </externalReferences>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="pkg:maven/net.runeduniverse.tools.maven.r4m/r4m-maven-extension@1.1.2?type=jar">
+      <dependency ref="pkg:maven/net.runeduniverse.tools.maven.r4m/r4m-api@1.1.0?type=jar"/>
+      <dependency ref="pkg:maven/net.runeduniverse.tools.maven.r4m/r4m-model@1.1.0?type=jar"/>
+      <dependency ref="pkg:maven/net.runeduniverse.tools.maven.r4m/r4m-model-builder@1.1.1?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.8.1?type=jar"/>
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-common@2.0.1?type=jar"/>
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-logging@2.0.0?type=jar"/>
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-plexus@2.0.0?type=jar"/>
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-maven3-ext@2.0.1?type=jar"/>
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-conditional@2.0.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/net.runeduniverse.tools.maven.r4m/r4m-api@1.1.0?type=jar">
+      <dependency ref="pkg:maven/net.runeduniverse.tools.maven.r4m/r4m-model@1.1.0?type=jar"/>
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-logging-api@2.0.0?type=jar"/>
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-conditional-api@2.0.0?type=jar"/>
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-maven3-api@2.0.0?type=jar"/>
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-maven3@2.0.0?type=jar"/>
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-maven3-ext-api@2.0.1?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/net.runeduniverse.tools.maven.r4m/r4m-model@1.1.0?type=jar">
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-common@2.0.1?type=jar"/>
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-logging@2.0.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-common@2.0.1?type=jar">
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-common-api@2.0.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-common-api@2.0.0?type=jar"/>
+    <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-logging@2.0.0?type=jar">
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-logging-api@2.0.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-logging-api@2.0.0?type=jar"/>
+    <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-conditional-api@2.0.0?type=jar"/>
+    <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-maven3-api@2.0.0?type=jar"/>
+    <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-maven3@2.0.0?type=jar">
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-maven3-api@2.0.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-maven3-ext-api@2.0.1?type=jar">
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-config-api@2.0.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-config-api@2.0.0?type=jar"/>
+    <dependency ref="pkg:maven/net.runeduniverse.tools.maven.r4m/r4m-model-builder@1.1.1?type=jar">
+      <dependency ref="pkg:maven/net.runeduniverse.tools.maven.r4m/r4m-api@1.1.0?type=jar"/>
+      <dependency ref="pkg:maven/net.runeduniverse.tools.maven.r4m/r4m-model@1.1.0?type=jar"/>
+      <dependency ref="pkg:maven/commons-io/commons-io@2.6?type=jar"/>
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-common@2.0.1?type=jar"/>
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-logging@2.0.0?type=jar"/>
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-maven3@2.0.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/commons-io/commons-io@2.6?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.8.1?type=jar"/>
+    <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-plexus@2.0.0?type=jar">
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-common@2.0.1?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-maven3-ext@2.0.1?type=jar">
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-maven3-ext-api@2.0.1?type=jar"/>
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-common@2.0.1?type=jar"/>
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-config@2.0.0?type=jar"/>
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-logging@2.0.0?type=jar"/>
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-plexus@2.0.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-config@2.0.0?type=jar">
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-config-api@2.0.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-conditional@2.0.0?type=jar">
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-conditional-api@2.0.0?type=jar"/>
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-common@2.0.1?type=jar"/>
+      <dependency ref="pkg:maven/net.runeduniverse.lib.utils/utils-logging@2.0.0?type=jar"/>
+    </dependency>
+  </dependencies>
+</bom>
